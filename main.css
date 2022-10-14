@@ -1,0 +1,137 @@
+
+      /*header*/
+      /*소니뱅크 구간 구별 배경색*/
+      .sub-menu{
+        background-color: black;
+        height: 40px;
+      }
+      .main-menu{
+        background-color: skyblue;
+        height: 70px;
+      }
+      
+      /*main-시계*/
+      .시계{
+        background-color: green;
+        height: 450px;
+      }
+
+      /*logo_sony.png 이미지 크기 및 배치 조절*/
+      .sub-menu > img{
+        position: absolute;
+        right: 0%;
+      }
+
+      /*sony_bank_logo.jpg 이미지 크기 및 배치 조절*/
+      .main-menu > img{
+        position: absolute;
+        top: 5%;
+        height: 6%;
+        width: 12%;
+      }
+
+      /*images/시계.jpg 이미지 크기 및 배치 조절*/
+      .main-menu-img > img{
+        position: absolute;
+        height: 500px;
+        width: 100%;
+      }
+
+      /*"알림" 영역 구분 배경색 적용 및 글자 크기 및 글자 위치 조절*/
+      .알림{
+        position: absolute;
+        top: 65.1%;
+        height: 40%;
+        width: 100%;
+        background-color: gray;
+
+        text-align: left;
+        font-size:18px;
+      }
+
+      /*사이트 사이즈에 따라 글자가 내려가는 것을 방지!!!!*/
+      #알람02_00{
+        width: 800px;
+        height: 800px;
+      }
+
+      .알림 > div > ul > li > .알림01{
+        font-size:28px;
+      }
+
+      .알림 > div > ul > li > .알림02{
+        font-size:23px;
+      }
+      /*적용이 안됨????????????????????????? 클래스로는 X id는 O*/
+      #알림03{
+        font-size:23px;
+      }
+
+      /*"소개1"부분 전체적인 배치 조절 및 평균 글자 크기 조절*/
+      .소개1{
+        position:absolute;
+        top: 115%;
+        height: 30%;
+        width: 100%;
+        font-size: 18px;
+        display: flex;
+      }
+
+      
+
+      /*"소개1"부분 이미지 가로 중앙 정렬 조절*/
+      .소개1 > .소개1_img01{
+        display: inline-block;
+        box-align: center;  
+        margin-top: 100px;
+        width: 100%;
+      }
+
+      /*#소개1_text01 는  텍스트 정렬 및 크기,폰트 조절..등*/
+      .소개1 .소개1_text01{
+        position:absolute;
+        margin-top: 0;
+        margin-left: 37%;
+        font-size: 32px;
+        font-weight: bold;
+   
+      }
+      
+      /*이미지 가로 정렬 조절*/
+      #소개1_img{
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 27%;
+
+        float: left;
+      }
+
+      
+
+      /*소개1_01 중에 글자 사이즈 및 배치 설정*/
+
+      #소개1_01_01{
+        position: absolute;
+        margin-left: 0;
+        font-size: 32px;
+      }
+
+      #소개1_01_02{
+        position: absolute;
+        margin-left: 0px;
+        font-size: 32px;
+      }
+
+      #소개1_01_03{
+        position: absolute;
+        margin-left: 0px;
+        font-size: 32px;
+      }
+
+      /**/
+/* 
+      .소개1_01_t{
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 300px;
+      } */
